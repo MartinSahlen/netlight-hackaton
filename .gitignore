@@ -1,0 +1,23 @@
+*.log
+*.pot
+*.pyc
+*.db
+*.DS_Store
+*.sqlite3
+
+# for all vim temporary files
+.*.sw*
+
+# for your own local environment
+venv/*
+
+/static/
+/cache/
+
+*_index/
+
+.idea/
+
+media/
+
+.coverage
