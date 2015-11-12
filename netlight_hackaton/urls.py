@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from netlight_hackaton.api.views import get_shit
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^shit/', get_shit),
 ]
