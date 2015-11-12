@@ -19,5 +19,5 @@ from netlight_hackaton.api.views import get_shit
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^shit/', get_shit),
+    url(r'^shit/?$', get_shit),
 ]
